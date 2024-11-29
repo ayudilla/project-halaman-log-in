@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login email</title>
+    <style>
+        body
+         {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #caca969a;
+        }
+        .login-container {
+            width: 300px;
+            padding: 20px;
+            background-color: rgba(28, 24, 24, 0.173);
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .login-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 16px;
+            box-sizing: border-box;
+        }
+        .login-container input[type="checkbox"] {
+            margin-right: 4px;
+            padding: 10px;
+        }
+        .login-container button {
+            width: 100%;
+            padding: 8px;
+            background-color: #141219;
+            border: none;
+            color: rgb(248, 248, 252);
+            font-size: 16px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .login-container button:hover {
+            background-color: #514f6d;
+        }
+    </style>
+</head>
+<body>
+
+</body>
+<body>
+
+<div class="login-container">
+    <h2>Login email</h2>
+    <form action="/login" method="post">
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="checkbox" id="remember" name="remember">
+            <label >Ingat saya</label>
+        <button type="submit">login</button>
+        <a href="#">Lupa kata sandi Anda?</a>
+        <a href="#">Belum punya akun? Daftar sekarang.</a>
+        
+    </form>
+</div>
+
+</body>
+</html>
